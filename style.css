@@ -33,3 +33,18 @@ body {
     color: white;
     text-decoration: inherit;
 }
+
+/* Widget in footer */
+.widget-footer {
+    font-size: .8em;
+}
+.widget-footer a {
+    color: white !important;
+}
+.widget-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.widget-footer-titel {
+    font-size: 1.1rem;
+}
