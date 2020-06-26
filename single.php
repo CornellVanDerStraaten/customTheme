@@ -3,7 +3,7 @@
     <div class="row">
 
 
-        <main class="col-md-8">
+        <main class="col-md-9">
             <?php
             if (have_posts()) :
                 while (have_posts()) : the_post(); ?>
@@ -16,7 +16,7 @@
             <?php endif ?>
         </main>
 
-        <aside class="col-md-4 bg-light">
+        <aside class="col-md-4 bg-light p-3">
             <?php dynamic_sidebar( 'aside' ); ?>
         </aside>
     </div>
