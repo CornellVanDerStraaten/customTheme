@@ -31,6 +31,10 @@
         ) );
         ?>
     </div>
+    <a href="<?php echo home_url(); ?>">
+            <img src="<?php echo get_template_directory_uri() . '/img/logo.png' ?>" alt="logo Cornell" style="width: 40px;">
+
+    </a>
 </nav>
 
         <div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri() . '/img/banner.jpg' ?>);">

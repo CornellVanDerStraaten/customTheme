@@ -48,3 +48,16 @@ body {
 .widget-footer-titel {
     font-size: 1.1rem;
 }
+
+/* Widget aside */
+.widget-aside {
+    padding: 2em 1em 2em 1em;
+    border-bottom: 1px solid gray;
+}
+.widget-aside h3 {
+    font-size: .7;
+}
+.screen-reader-text {
+    display: none;
+}
+
