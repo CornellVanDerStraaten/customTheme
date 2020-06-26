@@ -25,3 +25,11 @@ body {
     color: #fff;
     text-shadow: 0 0 3px;
 }
+.jumbotron a {
+    color: white;
+    text-decoration: none;
+}
+.jumbotron a:hover {
+    color: white;
+    text-decoration: inherit;
+}
