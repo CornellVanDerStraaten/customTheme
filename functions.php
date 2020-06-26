@@ -1,11 +1,12 @@
 <?php 
 
-function laadStijlblad() {
+function laadStijlbladenScripts() {
     wp_enqueue_style( 'stijl', get_stylesheet_uri() );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
+    wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array ( 'jquery' ), 1.5, true);
 }
 
-add_action('init', 'laadStijlblad');
+add_action('init', 'laadStijlbladenScripts');
 
 // Menu registreren
 function registreer_menu() {
@@ -23,4 +24,4 @@ add_action('init', 'registreer_menu');
 function register_navwalker() {
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
-add_action( 'after_setup_theme', 'register_navwalker');
+add_action( 'init', 'register_navwalker');

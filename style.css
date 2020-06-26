@@ -18,3 +18,10 @@ body {
     font-family: sans-serif;
     background: bisque;
 }
+
+.jumbotron {
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-shadow: 0 0 3px;
+}
